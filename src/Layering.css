@@ -1,0 +1,32 @@
+.imageVisibility {
+    visibility: hidden;
+
+}
+
+.profileImage {
+    height:600px;
+    width: 600px;
+    background-image: url(/img/CatWholeBody.jpg);
+    background-size: cover;
+    margin: auto;
+    z-index: -2;
+    position: absolute;
+  }
+.cat{
+    z-index: -1;
+    position: absolute;
+    margin-top: 10%;
+}
+.image1{
+    z-index: -1;
+    position: absolute;
+    top: 45%;
+    left: 60%
+}
+
+.image2{
+    z-index: -1;
+    position: absolute ;
+    top: 45%;
+    left:30%
+}
